@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - '**/*.freezed.dart'
+    - '**/*.mocks.dart'
+  errors:
+    missing_required_param: warning
+    missing_return: warning
+    invalid_annotation_target: ignore
+    dead_code:  ignore
+    # unused_import: ignore
+    # unnecessary_import: ignore
+linter:
+  rules:
+   
