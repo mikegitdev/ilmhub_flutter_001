@@ -27,4 +27,6 @@ void main() {
   var ozgarmas = List.unmodifiable([1, 2, 3]);
   ozgarmas[0] = 2;
   print(ozgarmas);
+
+  List names = [];
 }
