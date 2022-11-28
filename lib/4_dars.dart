@@ -5,10 +5,10 @@ void main() {
   // int sum = 0;
 
   // while (i <= 10) {
+  //   // 0 + 1 + 2 ......+ 10
   //   sum += i;
   //   i++;
   // }
-
   // print(sum);
 
   // stdout.write("foo");
@@ -35,7 +35,7 @@ void main() {
     "Hello" // 9
   ];
 
-  // for (int i = 0; i < planets.length; i += 1) {
+  // for (int i = 0; i < planets.length; i++) {
   //   print(planets[i]);
   // }
   // print(planets.length);
@@ -48,23 +48,23 @@ void main() {
 
   // Range Loops
 
-  var vals = [1, 2, 3, 4, 5];
-  for (var e in vals) {
-    // if (e < 3) {
-    //   print(e);
-    // }
-    if (e == 3) {
-      continue;
-    }
-    print(e);
-  }
+  // var vals = [1, 2, 3, 4, 5];
+  // for (var e in vals) {
+  //   // if (e < 3) {
+  //   //   print(e);
+  //   // }
+  //   if (e == 3) {
+  //     continue;
+  //   }
+  //   print(e);
+  // }
 
-  // var a1 = ["A", "B", "C"];
-  // var a2 = ["A", "B", "C"];
+  // var a1 = ["A", "A", "A"];
+  // var a2 = [1, 2, 3];
 
   // for (int i = 0; i < a1.length; i++) {
   //   for (int j = 0; j < a2.length; j++) {
-  //     print(a1[i] + a2[j]);
+  //     print(a1[i] * a2[j]);
   //   }
   // }
 
