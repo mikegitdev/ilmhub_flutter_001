@@ -9,6 +9,7 @@ analyzer:
     missing_return: warning
     invalid_annotation_target: ignore
     dead_code:  ignore
+    unused_element: ignore
     # unused_import: ignore
     # unnecessary_import: ignore
 linter:
