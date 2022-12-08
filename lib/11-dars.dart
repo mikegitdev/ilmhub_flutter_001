@@ -48,15 +48,15 @@
 //     };
 //   }
 
-//   Function deleteFunc() {
-//     return () {
-//       print("user delete qilindi");
-//     };
-//   }
+// Function deleteFunc() {
+//   return () {
+//     print("user delete qilindi");
+//   };
+// }
 
-//   void myFunc(Function next) {
-//     next();
-//   }
+// void myFunc(Function next) {
+//   next();
+// }
 
 //   myFunc(deleteFunc());
 // }
